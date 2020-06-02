@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "esModuleInterop": true,
+    "incremental": true,
+    "module": "commonjs",
+    "outDir": "dist/",
+    "paths": {
+      "@app/*": ["./*.ts"],
+      "@test/*": ["../test/*.ts"]
+    },
+    "removeComments": true,
+    "strict": true
+  },
+  "typeRoots": [
+    "src/@types",
+    "node_modules/@types"
+  ],
+  "sourceMap": false
+}
